@@ -1,0 +1,45 @@
+🚀 Starting manual interactive test...
+
+📍 Step 1: Loading home page...
+✅ Screenshot: 01-home-initial.png
+
+📍 Step 2: Selecting neighbourhood...
+✅ Screenshot: 02-neighbourhood-selected.png
+
+🔘 Start Survey button enabled: true
+
+📍 Step 3: Clicking Start Survey...
+✅ Screenshot: 03-survey-loading.png
+
+📍 Step 4: Waiting for first question to generate...
+⏳ Waiting... 0s
+⏳ Waiting... 5s
+⏳ Waiting... 10s
+⏳ Waiting... 15s
+✅ Screenshot: 04-survey-question-1.png
+
+📍 Step 5: Answering first question...
+📝 Found 8 checkboxes
+✅ Screenshot: 05-survey-answered-1.png
+
+✅ Screenshot: 06-survey-question-2-loading.png
+
+📍 Step 6: Waiting for second question...
+✅ Screenshot: 07-survey-question-2.png
+
+✅ Screenshot: 08-survey-answered-2.png
+
+✅ Screenshot: 09-survey-question-3-loading.png
+
+📍 Step 7: Third question...
+✅ Screenshot: 10-survey-question-3.png
+
+✅ Screenshot: 11-survey-answered-3.png
+
+✅ Screenshot: 12-survey-complete.png
+
+📍 Step 8: Clicking Generate Plan...
+❌ ERROR: Generate Plan button not found
+
+✅ Manual test complete! Check test-screenshots/ folder
+

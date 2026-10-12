@@ -1,0 +1,43 @@
+🚀 Starting manual interactive test...
+
+📍 Step 1: Loading home page...
+✅ Screenshot: 01-home-initial.png
+
+📍 Step 2: Selecting neighbourhood...
+✅ Screenshot: 02-neighbourhood-selected.png
+🔘 Start Survey button enabled: true
+
+📍 Step 3: Clicking Start Survey...
+✅ Screenshot: 03-survey-loading.png
+📍 Step 4: Waiting for first question to generate...
+⏳ Waiting... 0s
+⏳ Waiting... 5s
+⏳ Waiting... 10s
+✅ Screenshot: 04-survey-question-1.png
+📍 Step 5: Answering first question...
+📝 Found 8 checkboxes
+✅ Screenshot: 05-survey-answered-1.png
+✅ Screenshot: 06-survey-question-2-loading.png
+📍 Step 6: Waiting for second question...
+✅ Screenshot: 07-survey-question-2.png
+✅ Screenshot: 08-survey-answered-2.png
+🔍 Browser Console: [DEBUG] ========== handleFormSubmit CALLED ==========
+🔍 Browser Console: [DEBUG] Form values: {When do you typically find yourself walking alone?: Daytime, What is your current level of self-defense training?: None, How would you describe the areas you frequent? (Select all that apply): Array(1)}
+🔍 Browser Console: [DEBUG] State before changes: {exchangeCount: 0, isComplete: false, isLoading: false, currentSchema: exists}
+🔍 Browser Console: [DEBUG] Current exchangeCount: 0, nextExchange: 1, MAX_EXCHANGES: 3
+🔍 Browser Console: [DEBUG] ➡️  Not complete yet, continuing to next exchange...
+✅ Screenshot: 09-survey-question-3-loading.png
+📍 Step 7: Third question...
+✅ Screenshot: 10-survey-question-3.png
+📝 Answering all fields in third question...
+📝 Attempt 1: Found 7 radio buttons
+  ✓ Clicked radio button in group: When do you typically find yourself walking alone?
+  ✓ Clicked radio button in group: Would you be interested in self-defense training?
+❌ Error during test: locator.getAttribute: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('input[type="radio"]').nth(3)[22m
+
+    at runManualTest (/Users/allan/Documents/Projects/SixSafety/sixsafety-next/scripts/manual-test.js:259:51) {
+  name: 'TimeoutError'
+}
+✅ Screenshot: ERROR-exception.png

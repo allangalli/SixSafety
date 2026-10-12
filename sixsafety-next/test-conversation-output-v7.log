@@ -1,0 +1,23 @@
+[2025-11-06T22:10:39.686Z] 
+================================================================================
+[2025-11-06T22:10:39.687Z]   SixSafety Conversational Flow Test - Phase 5
+[2025-11-06T22:10:39.687Z] ================================================================================
+[2025-11-06T22:10:40.219Z] 
+================================================================================
+[2025-11-06T22:10:40.219Z]   TEST 1: Home Page - Initial Load
+[2025-11-06T22:10:40.219Z] ================================================================================
+[2025-11-06T22:10:40.771Z] 
+================================================================================
+[2025-11-06T22:10:40.771Z]   TEST FAILED
+[2025-11-06T22:10:40.771Z] ================================================================================
+[2025-11-06T22:10:40.771Z] ❌ Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3002/
+Call log:
+[2m  - navigating to "http://localhost:3002/", waiting until "networkidle"[22m
+
+[2025-11-06T22:10:40.771Z] Stack: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3002/
+Call log:
+[2m  - navigating to "http://localhost:3002/", waiting until "networkidle"[22m
+
+    at testConversationFlow (/Users/allan/Documents/Projects/SixSafety/sixsafety-next/scripts/test-conversation-flow.js:115:16)
+[2025-11-06T22:10:40.818Z] ✅ Screenshot: ERROR-final.png - Error state
+[2025-11-06T22:10:40.818Z] 📝 Test log saved to: test-screenshots/phase5/test-log.txt

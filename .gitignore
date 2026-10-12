@@ -1,6 +1,10 @@
 #Context folders
-./Context
-./WiseNeighbourhood
-./MMAI5040_TP_Model
+.context/
+.claude/
+WiseNeighbourhood/
+MMAI5040_TP/
+archive/
+bmad/
+
 
 

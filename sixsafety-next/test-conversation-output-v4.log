@@ -1,0 +1,33 @@
+[2025-11-06T21:08:15.677Z] 
+================================================================================
+[2025-11-06T21:08:15.678Z]   SixSafety Conversational Flow Test - Phase 5
+[2025-11-06T21:08:15.678Z] ================================================================================
+[2025-11-06T21:08:16.645Z] 
+================================================================================
+[2025-11-06T21:08:16.646Z]   TEST 1: Home Page - Initial Load
+[2025-11-06T21:08:16.646Z] ================================================================================
+[2025-11-06T21:08:19.917Z] ✅ Screenshot: 01-home-initial.png - Home page loaded
+[2025-11-06T21:08:19.919Z] ❌ NOT FOUND: SixSafety title
+[2025-11-06T21:08:19.920Z] ❌ NOT FOUND: Subtitle
+[2025-11-06T21:08:19.921Z] ❌ NOT FOUND: Neighbourhood dropdown
+[2025-11-06T21:08:19.922Z] ❌ NOT FOUND: QR code sidebar (desktop)
+[2025-11-06T21:08:19.923Z] ❌ NOT FOUND: Submit button
+[2025-11-06T21:08:19.923Z] 
+================================================================================
+[2025-11-06T21:08:19.923Z]   TEST 2: Neighbourhood Selection
+[2025-11-06T21:08:19.923Z] ================================================================================
+[2025-11-06T21:08:50.426Z] 
+================================================================================
+[2025-11-06T21:08:50.426Z]   TEST FAILED
+[2025-11-06T21:08:50.426Z] ================================================================================
+[2025-11-06T21:08:50.426Z] ❌ Error: locator.selectOption: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('select').first()[22m
+
+[2025-11-06T21:08:50.426Z] Stack: locator.selectOption: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('select').first()[22m
+
+    at testConversationFlow (/Users/allan/Documents/Projects/SixSafety/sixsafety-next/scripts/test-conversation-flow.js:137:42)
+[2025-11-06T21:08:50.463Z] ✅ Screenshot: ERROR-final.png - Error state
+[2025-11-06T21:08:50.463Z] 📝 Test log saved to: test-screenshots/phase5/test-log.txt

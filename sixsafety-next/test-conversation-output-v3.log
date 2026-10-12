@@ -1,0 +1,137 @@
+[2025-11-06T20:56:46.939Z] 
+================================================================================
+[2025-11-06T20:56:46.940Z]   SixSafety Conversational Flow Test - Phase 5
+[2025-11-06T20:56:46.940Z] ================================================================================
+[2025-11-06T20:56:47.495Z] 
+================================================================================
+[2025-11-06T20:56:47.495Z]   TEST 1: Home Page - Initial Load
+[2025-11-06T20:56:47.495Z] ================================================================================
+[2025-11-06T20:56:51.955Z] ✅ Screenshot: 01-home-initial.png - Home page loaded
+[2025-11-06T20:56:51.957Z] ✅ Found: SixSafety title
+[2025-11-06T20:56:51.958Z] ✅ Found: Subtitle
+[2025-11-06T20:56:51.959Z] ✅ Found: Neighbourhood dropdown
+[2025-11-06T20:56:51.960Z] ❌ NOT FOUND: QR code sidebar (desktop)
+[2025-11-06T20:56:51.961Z] ✅ Found: Submit button
+[2025-11-06T20:56:51.962Z]   Submit button disabled: true (should be true initially)
+[2025-11-06T20:56:51.962Z] 
+================================================================================
+[2025-11-06T20:56:51.962Z]   TEST 2: Neighbourhood Selection
+[2025-11-06T20:56:51.962Z] ================================================================================
+[2025-11-06T20:56:54.515Z] ✅ Screenshot: 02-neighbourhood-selected.png - Neighbourhood selected
+[2025-11-06T20:56:54.516Z] ✅ Found: Crime risk notification
+[2025-11-06T20:56:54.517Z]   Submit button enabled: true (should be true now)
+[2025-11-06T20:56:54.517Z] 
+================================================================================
+[2025-11-06T20:56:54.517Z]   TEST 3: Starting Survey
+[2025-11-06T20:56:54.517Z] ================================================================================
+[2025-11-06T20:56:55.038Z]   Clicked Submit button
+[2025-11-06T20:56:55.827Z]   ✅ Navigated to /survey page
+[2025-11-06T20:56:57.872Z] ✅ Screenshot: 03-survey-loading.png - Survey page loading
+[2025-11-06T20:56:57.872Z] 
+================================================================================
+[2025-11-06T20:56:57.872Z]   TEST 4: First Question Generation
+[2025-11-06T20:56:57.872Z] ================================================================================
+[2025-11-06T20:56:57.872Z]   Waiting for first question to generate...
+[2025-11-06T20:57:03.892Z]   ⏳ Still waiting... 5s
+[2025-11-06T20:57:08.910Z]   ⏳ Still waiting... 10s
+[2025-11-06T20:57:09.913Z]   ✅ First question loaded after 12 seconds
+[2025-11-06T20:57:11.978Z] ✅ Screenshot: 04-question-1-loaded.png - First question loaded
+[2025-11-06T20:57:11.978Z] 
+================================================================================
+[2025-11-06T20:57:11.978Z]   TEST 5: Conversation Structure Analysis
+[2025-11-06T20:57:11.978Z] ================================================================================
+[2025-11-06T20:57:11.979Z]   Total conversation elements: 0
+[2025-11-06T20:57:11.980Z] ✅ Found: Assistant message content
+[2025-11-06T20:57:11.980Z]   Response echo boxes: 0 (should be 0 on first question)
+[2025-11-06T20:57:11.981Z]   Summary visible: false
+[2025-11-06T20:57:11.981Z] 
+================================================================================
+[2025-11-06T20:57:11.981Z]   TEST 6: Answering First Question
+[2025-11-06T20:57:11.981Z] ================================================================================
+[2025-11-06T20:57:11.982Z]   Form elements found: 4 checkboxes, 4 radios, 0 dropdowns
+[2025-11-06T20:57:11.982Z]   Selecting first 2 checkboxes...
+[2025-11-06T20:57:13.619Z]   Selecting radio button groups...
+[2025-11-06T20:57:14.445Z]   Selected 1 radio groups
+[2025-11-06T20:57:14.513Z] ✅ Screenshot: 05-question-1-answered.png - First question answered
+[2025-11-06T20:57:14.513Z]   Submitting first answer...
+[2025-11-06T20:57:17.105Z] ✅ Screenshot: 06-after-submit-1.png - After first submission
+[2025-11-06T20:57:17.105Z] 
+================================================================================
+[2025-11-06T20:57:17.105Z]   TEST 7: Conversation Growth Check
+[2025-11-06T20:57:17.105Z] ================================================================================
+[2025-11-06T20:57:17.105Z]   Waiting for response echo and new question...
+[2025-11-06T20:57:22.107Z]   Notification boxes found: 3
+[2025-11-06T20:57:22.107Z] ❌ NOT FOUND: Red response echo box
+[2025-11-06T20:57:22.108Z]   Conversation elements after submit: 0 (was 0)
+[2025-11-06T20:57:22.108Z]   ⚠️  WARNING: Conversation did not grow (might be loading)
+[2025-11-06T20:57:22.109Z]   Summary elements: 0
+[2025-11-06T20:57:22.109Z]   Waiting for second question to load...
+[2025-11-06T20:57:23.110Z]   ✅ Second question loaded after 1s
+[2025-11-06T20:57:23.181Z] ✅ Screenshot: 07-question-2-loaded.png - Second question loaded
+[2025-11-06T20:57:23.181Z] 
+================================================================================
+[2025-11-06T20:57:23.181Z]   TEST 8: Answering Second Question
+[2025-11-06T20:57:23.181Z] ================================================================================
+[2025-11-06T20:57:23.182Z]   Messages in conversation: 0
+[2025-11-06T20:57:23.182Z]   Second form: 4 checkboxes, 8 radios
+[2025-11-06T20:57:25.656Z]   Selected 2 radio groups
+[2025-11-06T20:57:25.720Z] ✅ Screenshot: 08-question-2-answered.png - Second question answered
+[2025-11-06T20:57:25.720Z]   Submitting second answer...
+[2025-11-06T20:57:31.353Z] ✅ Screenshot: 09-after-submit-2.png - After second submission
+[2025-11-06T20:57:31.353Z] 
+================================================================================
+[2025-11-06T20:57:31.353Z]   TEST 9: Progressive Disclosure Verification
+[2025-11-06T20:57:31.353Z] ================================================================================
+[2025-11-06T20:57:31.354Z]   Messages after Q2: 0 (was 0)
+[2025-11-06T20:57:31.354Z]   Message growth: 0 new elements
+[2025-11-06T20:57:31.355Z]   Total red echo boxes: 5 (should be 2 now)
+[2025-11-06T20:57:31.355Z]   Waiting for third question...
+[2025-11-06T20:57:32.356Z]   ✅ Third question loaded after 1s
+[2025-11-06T20:57:32.437Z] ✅ Screenshot: 10-question-3-loaded.png - Third question loaded
+[2025-11-06T20:57:32.437Z] 
+================================================================================
+[2025-11-06T20:57:32.437Z]   TEST 10: Final Question & Completion
+[2025-11-06T20:57:32.437Z] ================================================================================
+[2025-11-06T20:57:32.438Z]   Messages before Q3: 0
+[2025-11-06T20:57:32.439Z]   Third form: 4 checkboxes, 8 radios
+[2025-11-06T21:00:40.013Z]   Selected 1 radio groups
+[2025-11-06T21:00:40.101Z] ✅ Screenshot: 11-question-3-answered.png - Third question answered
+[2025-11-06T21:00:40.101Z]   Submitting final answer...
+[2025-11-06T21:00:40.661Z]   Waiting for completion state...
+[2025-11-06T21:00:45.761Z] ✅ Screenshot: 12-after-submit-3.png - After third submission
+[2025-11-06T21:00:45.761Z] 
+================================================================================
+[2025-11-06T21:00:45.761Z]   TEST 11: Completion State Verification
+[2025-11-06T21:00:45.761Z] ================================================================================
+[2025-11-06T21:00:51.799Z]   ⏳ Waiting for completion... 5s
+[2025-11-06T21:00:56.823Z]   ⏳ Waiting for completion... 10s
+[2025-11-06T21:01:01.849Z]   ⏳ Waiting for completion... 15s
+[2025-11-06T21:01:06.874Z]   ⏳ Waiting for completion... 20s
+[2025-11-06T21:01:11.898Z]   ⏳ Waiting for completion... 25s
+[2025-11-06T21:01:16.012Z] ✅ Screenshot: 13-completion.png - Completion state
+[2025-11-06T21:01:16.012Z]   ⚠️  WARNING: Completion state not reached within 30 seconds
+[2025-11-06T21:01:16.014Z]   Page contains "complete": true
+[2025-11-06T21:01:16.014Z]   Page contains "generate": true
+[2025-11-06T21:01:16.014Z]   Final message count: 0
+[2025-11-06T21:01:16.014Z]   Total conversation growth: 0 messages
+[2025-11-06T21:01:16.014Z] 
+================================================================================
+[2025-11-06T21:01:16.014Z]   TEST 12: Final Conversation Analysis
+[2025-11-06T21:01:16.014Z] ================================================================================
+[2025-11-06T21:01:17.121Z] ✅ Screenshot: 14-full-conversation-top.png - Full conversation - top
+[2025-11-06T21:01:18.228Z] ✅ Screenshot: 15-full-conversation-middle.png - Full conversation - middle
+[2025-11-06T21:01:19.327Z] ✅ Screenshot: 16-full-conversation-bottom.png - Full conversation - bottom
+[2025-11-06T21:01:19.327Z] 
+📊 FINAL CONVERSATION ANALYSIS:
+[2025-11-06T21:01:19.328Z]   ✓ Red echo boxes: 7 (expected: 3)
+[2025-11-06T21:01:19.329Z]   ✓ Summary boxes: 10
+[2025-11-06T21:01:19.329Z]   ✓ Section headers: 0
+[2025-11-06T21:01:19.330Z] ❌ NOT FOUND: Generate Plan button
+[2025-11-06T21:01:19.330Z]   ✓ Generate Plan button: NO
+[2025-11-06T21:01:19.330Z] 
+================================================================================
+[2025-11-06T21:01:19.330Z]   TEST COMPLETE
+[2025-11-06T21:01:19.330Z] ================================================================================
+[2025-11-06T21:01:19.330Z] ✅ All test steps completed successfully!
+[2025-11-06T21:01:19.330Z] 📸 Screenshots saved to: test-screenshots/phase5
+[2025-11-06T21:01:19.330Z] 📝 Test log saved to: test-screenshots/phase5/test-log.txt

@@ -1,0 +1,25 @@
+Neighbourhood,Offence Group,Safety Risk
+Agincourt North,Assault,Medium
+Agincourt North,Auto Theft,Low
+Agincourt North,Break and Enter,Low
+Agincourt North,Robbery,Low
+Agincourt South-Malvern West,Assault,High
+Agincourt South-Malvern West,Auto Theft,Medium
+Agincourt South-Malvern West,Break and Enter,Medium
+Agincourt South-Malvern West,Robbery,Medium
+Annex,Assault,Low
+Annex,Auto Theft,Low
+Annex,Break and Enter,Low
+Annex,Robbery,Low
+Trinity-Bellwoods,Assault,Medium
+Trinity-Bellwoods,Auto Theft,High
+Trinity-Bellwoods,Break and Enter,High
+Trinity-Bellwoods,Robbery,Medium
+York University Heights,Assault,High
+York University Heights,Auto Theft,High
+York University Heights,Break and Enter,Medium
+York University Heights,Robbery,High
+Downtown Yonge,Assault,High
+Downtown Yonge,Auto Theft,High
+Downtown Yonge,Break and Enter,High
+Downtown Yonge,Robbery,High
